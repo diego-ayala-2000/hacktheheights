@@ -5,6 +5,8 @@ import axios from 'axios';
 
 import Events from './components/events';
 import EventDetails from './components/event_details';
+import SignUp from './components/sign_up';
+
 
 export default function App() {
   const [data, setData] = useState([]);
@@ -28,11 +30,13 @@ export default function App() {
           <div className="hero-body">
             <h1 className="title">HelpNow</h1>
             <h2 className="subtitle">The website for volunteers</h2>
-            <Link to="/events">Events</Link>
+            <Link to="/" className="button is-dark">SignUp</Link>
+            <Link to="/events" className="button is-dark">Events</Link>
           </div>
         </section>
 
         <Routes>
+          <Route path="/" element={<SignUp/>} /> {/* Home route */}
           <Route path="/events" element={<Events />} /> {/* Event details route */}
           <Route path="/event/:id" element={<EventDetails />} /> {/* Event details route */}
         </Routes>
