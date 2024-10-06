@@ -8,7 +8,8 @@
             "description": "Help distribute blankets and warm clothing to families affected by the recent winter storm in Boston. Volunteers will assist with logistics and distribution.",
             "volunteers_needed": 60,
             "volunteers_registered": 25,
-            "status": "Open"
+            "status": "Open",
+            "image": "https://raw.githubusercontent.com/diego-ayala-2000/hacktheheights/main/backend/photos/thai11.jpg"
         },
         {
             "id": 2,
@@ -18,8 +19,8 @@
             "description": "Volunteers needed for evacuation assistance and shelter support for families affected by wildfires in the Maule region.",
             "volunteers_needed": 50,
             "volunteers_registered": 20,
-            "status": "Open"
-
+            "status": "Open",
+            "image": "https://raw.githubusercontent.com/diego-ayala-2000/hacktheheights/main/backend/photos/chile.jpg"
         },
         {
             "id": 3,
@@ -29,18 +30,8 @@
             "description": "Join us to assist in distributing food and supplies to families affected by the recent floods in Bangkok. Volunteers will help in logistics and transportation.",
             "volunteers_needed": 100,
             "volunteers_registered": 40,
-            "status": "Open"
-        },
-        {
-            "id": 4,
-            "name": "Flood Relief Operation in Bangkok",
-            "location": "Bangkok, Thailand",
-            "date": "2024-11-05",
-            "description": "Join us to assist in distributing food and supplies to families affected by the recent floods in Bangkok. Volunteers will help in logistics and transportation.",
-            "volunteers_needed": 100,
-            "volunteers_registered": 40,
-            "status": "Open"
+            "status": "Open",
+            "image": "https://raw.githubusercontent.com/diego-ayala-2000/hacktheheights/main/backend/photos/thai11.jpg"
         }
     ]
-
 }
