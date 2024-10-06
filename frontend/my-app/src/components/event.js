@@ -26,6 +26,9 @@ export default function Event({item}) {
             <p className="event-volunteers"><strong>Volunteers Needed:</strong> {item.volunteers_needed}</p>
             <p className="event-volunteers"><strong>Volunteers Registered:</strong> {item.volunteers_registered}</p>
             <p className="event-status"><strong>Status:</strong> {item.status}</p>  {/* Display the event status */}
+            <progress class="progress is-info" value={(item.volunteers_registered/item.volunteers_needed)*100} max="100">
+  45%
+</progress>
     </Link>
     );
   };
