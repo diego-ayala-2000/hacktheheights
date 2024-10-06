@@ -18,7 +18,7 @@
             "date": "2024-11-01",
             "description": "Volunteers needed for evacuation assistance and shelter support for families affected by wildfires in the Maule region.",
             "volunteers_needed": 50,
-            "volunteers_registered": 20,
+            "volunteers_registered": 49,
             "status": "Open",
             "image": "https://raw.githubusercontent.com/diego-ayala-2000/hacktheheights/main/backend/photos/chile.jpg"
         },
@@ -29,7 +29,7 @@
             "date": "2024-11-05",
             "description": "Join us in cleaning up the beaches of Phuket to protect marine life and maintain the beauty of our natural environment. Volunteers will be provided with cleaning tools and safety gear.",
             "volunteers_needed": 80,
-            "volunteers_registered": 35,
+            "volunteers_registered": 5,
             "status": "Open",
             "image": "https://raw.githubusercontent.com/diego-ayala-2000/hacktheheights/main/backend/photos/beach_cleanup.jpg"
         }
