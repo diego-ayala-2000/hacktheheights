@@ -27,7 +27,7 @@ export default function App() {
         <section className="hero is-primary">
           <div className="hero-body">
             <h1 className="title">HelpNow</h1>
-            <h2 className="subtitle">The web app for volunteering</h2>
+            <h2 className="subtitle">The website for volunteers</h2>
             <Link to="/events">Events</Link>
           </div>
         </section>
