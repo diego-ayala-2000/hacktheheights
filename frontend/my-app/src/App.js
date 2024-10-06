@@ -32,6 +32,16 @@ export default function App() {
           </div>
         </section>
 
+        <img src="https://raw.githubusercontent.com/diego-ayala-2000/hacktheheights/main/backend/photos/thai11.jpg" 
+                 alt="headline" 
+                 style={{
+                 width: '1324px', 
+                 height: '390px', 
+                 display: 'block', 
+                 margin: '0 auto'
+                }} 
+            />
+
         <Routes>
           <Route path="/events" element={<Events />} /> {/* Event details route */}
           <Route path="/event/:id" element={<EventDetails />} /> {/* Event details route */}
