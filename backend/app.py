@@ -101,6 +101,14 @@ def update_event(event_id):
             return jsonify(updated_event), 200
     return jsonify({"error": "Event not found"}), 404
 
+@app.route('/events/<int:event_id>', methods=['GET'])
+def get_event(event_id):
+    data = load_data('data/events.json')  # Load your events data
+    for event in data["events"]:
+        if event["id"] == event_id:
+            return jsonify(event), 200  # Return the event with a 200 status code
+    return jsonify({"error": "Event not found"}), 404  # Return error if event not found
+
 '''
 TASKS CRUD API
 '''

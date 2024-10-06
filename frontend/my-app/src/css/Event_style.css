@@ -1,0 +1,57 @@
+.event-card {
+    display: block;
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Set default text color */
+    padding: 15px;
+    margin: 10px;
+    transition: transform 0.3s; /* Smooth scaling effect */
+}
+
+.event-card:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+}
+
+.event-image {
+    height: 200px; /* Set a fixed height for the image */
+    background-size: cover; /* Cover the entire div */
+    background-position: center; /* Center the image */
+    border-radius: 8px;
+    margin-bottom: 15px; /* Spacing below the image */
+}
+
+.event-name {
+    font-size: 1.5rem; /* Increase font size for event name */
+    font-weight: bold; /* Make event name bold */
+    margin: 0;
+}
+
+.event-date {
+    font-size: 1.2rem; /* Slightly smaller font size for the date */
+    color: #888; /* Grey color for the date */
+    margin: 5px 0;
+}
+
+.event-location {
+    font-size: 1.1rem; /* Smaller font size for the location */
+    margin: 5px 0;
+}
+
+.event-description {
+    font-size: 1rem; /* Default font size for description */
+    margin: 10px 0;
+}
+
+.event-volunteers,
+.event-status {
+    font-size: 1rem; /* Default font size for volunteers and status */
+    margin: 5px 0;
+}
+
+.event-volunteers strong,
+.event-status strong {
+    color: #007bff; /* Change color for strong tags */
+}

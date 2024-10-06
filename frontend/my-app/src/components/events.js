@@ -21,7 +21,7 @@ export default function Events() {
 
   return (
         <div className="section">
-          <h3 className="title">Eves</h3>
+          <h3 className="title">Open Events:</h3>
           <div className="columns">
             {data.map((item, index) => (
               <Event key={index} item={item} /> // Render a component for each item
