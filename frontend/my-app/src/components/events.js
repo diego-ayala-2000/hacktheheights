@@ -11,13 +11,15 @@ export default function Events() {
     axios
       .get('http://127.0.0.1:5000/events') // Replace with your Flask endpoint
       .then((response) => {
-        // console.log(response.data);
+        console.log(response.data);
         setData(response.data); // Set the data received from Flask
       })
       .catch((error) => {
         console.error("Error fetching data: ", error);
       });
   }, []);
+
+
 
   return (
         <div className="section">
