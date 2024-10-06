@@ -3,17 +3,17 @@
         {
             "id": 1,
             "img": "https://raw.githubusercontent.com/diego-ayala-2000/hacktheheights/main/backend/photos/thai11.jpg",
-            "description": "Fundraising: Donate to the Relief Fund. Help by donating any amount to support the purchase of blankets and clothing for families affected by the winter storm."
+            "description": "Severe flooding has struck Chiang Mai, displacing families and causing extensive damage to homes and infrastructure. Volunteers are needed to help distribute essential supplies, assist in evacuation, and support relief efforts."
         },
         {
             "id": 2,
             "img": "https://raw.githubusercontent.com/diego-ayala-2000/hacktheheights/main/backend/photos/chile.jpg",
-            "description": "Gathering Materials: Bring Warm Clothing. Please bring warm clothing and blankets to the Boston Community Center on December 6th at 10 AM."
+            "description": "Volunteers are urgently needed to assist with evacuation efforts and provide support to families affected by the devastating wildfires in the Maule region. Duties include distributing food and water, offering first aid, and assisting with evacuation logistics. Your help will be crucial in ensuring the safety and well-being of those impacted by the fires."
         },
         {
             "id": 3,
             "img": "https://raw.githubusercontent.com/diego-ayala-2000/hacktheheights/main/backend/photos/beach_cleanup.jpg",
-            "description": "Logistics: Help Set Up. Join us at the distribution center on December 10th at 8 AM to help set up for the event."
+            "description": "Join us in cleaning up the beaches of Phuket to protect marine life and maintain the beauty of our natural environment. Volunteers will be provided with cleaning tools and safety gear."
         }
     ]
 }

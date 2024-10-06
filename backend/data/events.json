@@ -2,12 +2,12 @@
     "events": [
         {
             "id": 1,
-            "name": "Winter Storm Relief in Boston",
-            "location": "Boston, MA, USA",
-            "date": "2024-12-10",
-            "description": "Help distribute blankets and warm clothing to families affected by the recent winter storm in Boston. Volunteers will assist with logistics and distribution.",
-            "volunteers_needed": 60,
-            "volunteers_registered": 25,
+            "name": "Chiang Mai Flood Crisis",
+            "location": "Chiang Mai, Thailand",
+            "date": "2024-10-06",
+            "description": "Severe flooding has struck Chiang Mai, displacing families and causing extensive damage to homes and infrastructure. Volunteers are needed to help distribute essential supplies, assist in evacuation, and support relief efforts.",
+            "volunteers_needed": 100,
+            "volunteers_registered": 45,
             "status": "Open",
             "image": "https://raw.githubusercontent.com/diego-ayala-2000/hacktheheights/main/backend/photos/thai11.jpg"
         },
@@ -24,14 +24,14 @@
         },
         {
             "id": 3,
-            "name": "Flood Relief Operation in Bangkok",
-            "location": "Bangkok, Thailand",
+            "name": "Beach Cleanup Initiative",
+            "location": "Phuket, Thailand",
             "date": "2024-11-05",
-            "description": "Join us to assist in distributing food and supplies to families affected by the recent floods in Bangkok. Volunteers will help in logistics and transportation.",
-            "volunteers_needed": 100,
-            "volunteers_registered": 40,
+            "description": "Join us in cleaning up the beaches of Phuket to protect marine life and maintain the beauty of our natural environment. Volunteers will be provided with cleaning tools and safety gear.",
+            "volunteers_needed": 80,
+            "volunteers_registered": 35,
             "status": "Open",
-            "image": "https://raw.githubusercontent.com/diego-ayala-2000/hacktheheights/main/backend/photos/thai11.jpg"
+            "image": "https://raw.githubusercontent.com/diego-ayala-2000/hacktheheights/main/backend/photos/beach_cleanup.jpg"
         }
     ]
 }
