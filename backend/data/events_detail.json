@@ -1,0 +1,19 @@
+{
+    "events_detail": [
+        {
+            "id": 1,
+            "img": "https://raw.githubusercontent.com/diego-ayala-2000/hacktheheights/main/backend/photos/thai11.jpg",
+            "description": "Fundraising: Donate to the Relief Fund. Help by donating any amount to support the purchase of blankets and clothing for families affected by the winter storm."
+        },
+        {
+            "id": 2,
+            "img": "https://raw.githubusercontent.com/diego-ayala-2000/hacktheheights/main/backend/photos/chile.jpg",
+            "description": "Gathering Materials: Bring Warm Clothing. Please bring warm clothing and blankets to the Boston Community Center on December 6th at 10 AM."
+        },
+        {
+            "id": 3,
+            "img": "https://raw.githubusercontent.com/diego-ayala-2000/hacktheheights/main/backend/photos/beach_cleanup.jpg",
+            "description": "Logistics: Help Set Up. Join us at the distribution center on December 10th at 8 AM to help set up for the event."
+        }
+    ]
+}

@@ -118,6 +118,19 @@ def get_tasks():
     data = load_data('data/tasks.json')
     return jsonify(data["tasks"])
 
+@app.route('/tasks/<int:task_id>', methods=['GET'])
+def get_tasks_by_id(task_id):
+    data = load_data('data/tasks.json')
+    tasks = data.get("tasks", [])
+    
+    # Filter tasks with the specified task_id
+    matching_tasks = [task for task in tasks if task['event_id'] == task_id]
+    
+    if matching_tasks:
+        return jsonify(matching_tasks)  # Return the list of matching tasks
+    else:
+        return jsonify({"error": "No tasks found for this ID"}), 404
+
 @app.route('/tasks', methods=['POST'])
 def add_task():
     new_task = request.json
@@ -146,6 +159,20 @@ def update_task(task_id):
             save_data('data/tasks.json', data)
             return jsonify(updated_task), 200
     return jsonify({"error": "Task not found"}), 404
+
+
+'''
+EVENT DETAILS API
+'''
+
+@app.route('/events_detail/<int:event_id>', methods=['GET'])
+def get_event_details(event_id):
+    data = load_data('data/events_detail.json')  # Load events from your JSON file
+    event_details = next((event for event in data["events_detail"] if event["id"] == event_id), None)
+    
+    if event_details:
+        return jsonify(event_details)  # Return the event details
+    return jsonify({"error": "Event not found"}), 404
 
 
 if __name__ == '__main__':

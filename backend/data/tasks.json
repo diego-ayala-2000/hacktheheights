@@ -4,49 +4,57 @@
             "event_id": 1,
             "task_type": "Fundraising",
             "task_name": "Donate to the Relief Fund",
-            "description": "Help by donating any amount to support the purchase of blankets and clothing for families affected by the winter storm."
+            "description": "Help by donating any amount to support the purchase of blankets and clothing for families affected by the winter storm.",
+            "img": "https://example.com/path_to_fundraising_image.jpg"
         },
         {
             "event_id": 1,
             "task_type": "Gathering Materials",
             "task_name": "Bring Warm Clothing",
-            "description": "Please bring warm clothing and blankets to the Boston Community Center on December 6th at 10 AM."
+            "description": "Please bring warm clothing and blankets to the Boston Community Center on December 6th at 10 AM.",
+            "img": "https://example.com/path_to_gathering_materials_image.jpg"
         },
         {
             "event_id": 1,
             "task_type": "Logistics",
             "task_name": "Help Set Up",
-            "description": "Join us at the distribution center on December 10th at 8 AM to help set up for the event."
+            "description": "Join us at the distribution center on December 10th at 8 AM to help set up for the event.",
+            "img": "https://example.com/path_to_help_set_up_image.jpg"
         },
         {
             "event_id": 2,
             "task_type": "Evacuation Support",
             "task_name": "Assist Evacuating Families",
-            "description": "Join us on November 1st to help evacuate families affected by the wildfires in the Maule region."
+            "description": "Join us on November 1st to help evacuate families affected by the wildfires in the Maule region.",
+            "img": "https://example.com/path_to_evacuating_families_image.jpg"
         },
         {
             "event_id": 2,
             "task_type": "Shelter Support",
             "task_name": "Provide Shelter Assistance",
-            "description": "Help set up and manage the shelter for families on November 1st."
+            "description": "Help set up and manage the shelter for families on November 1st.",
+            "img": "https://example.com/path_to_shelter_support_image.jpg"
         },
         {
             "event_id": 3,
             "task_type": "Logistics",
             "task_name": "Distribute Food Supplies",
-            "description": "Join us on November 5th to help distribute food and supplies to families affected by the floods in Bangkok."
+            "description": "Join us on November 5th to help distribute food and supplies to families affected by the floods in Bangkok.",
+            "img": "https://cdn-icons-png.flaticon.com/512/5291/5291086.png"
         },
         {
             "event_id": 3,
             "task_type": "Gathering Materials",
             "task_name": "Bring Essential Supplies",
-            "description": "Bring non-perishable food items and essential supplies to the meeting point in Bangkok by November 3rd."
+            "description": "Bring non-perishable food items and essential supplies to the meeting point in Bangkok by November 3rd.",
+            "img": "https://cdn-icons-png.freepik.com/256/8291/8291211.png"
         },
         {
             "event_id": 3,
             "task_type": "Volunteer Coordination",
             "task_name": "Join the Volunteer Team",
-            "description": "Meet with the volunteer team on November 4th at 1 PM to discuss roles and logistics for the distribution event."
+            "description": "Meet with the volunteer team on November 4th at 1 PM to discuss roles and logistics for the distribution event.",
+            "img": "https://cdn-icons-png.flaticon.com/512/3047/3047870.png"
         }
     ]
 }
